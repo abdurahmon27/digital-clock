@@ -1,0 +1,7 @@
+.clock-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 10px);
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
