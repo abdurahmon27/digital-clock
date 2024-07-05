@@ -24,7 +24,7 @@ const Clock = () => {
   const patterns = getPatterns(timeString);
 
   return (
-    <div className="container h-[80vh] flex max-md:flex-wrap items-center justify-center mx-auto">
+    <div className="container h-[80vh] flex items-center justify-center mx-auto max-md:grid max-md:grid-cols-2 max-md:grid-rows-3">
       {patterns.map((pattern, patternIndex) => (
         pattern === ':' ?
           <span key={patternIndex} className="text-5xl font-semibold mx-2 max-md:hidden
